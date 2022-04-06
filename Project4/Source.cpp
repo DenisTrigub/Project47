@@ -1,6 +1,19 @@
 #include<iostream>
+#include<time.h>
+#include"Header.h"
+using namespace std;
 
 int main()
 {
-	return 0;
+    srand(time(0));
+    const int size = 10;
+    int arr[size];
+    int max{};
+    int min{};
+
+   
+
+   
+    Foo(arr,size,max, min); 
+    return 0;
 }
